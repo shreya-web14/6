@@ -1,2 +1,24 @@
-# 6
-welcome to the webpage
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editable Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #editor {
+            min-height: 500px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="editor" contenteditable="true"></div>
+
+</body>
+</html>
